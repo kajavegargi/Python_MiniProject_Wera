@@ -93,4 +93,7 @@ Wera/
 ---
 
 ## Made by
-ILISHA SHAH — (www.linkedin.com/in/ilisha-shah)
+ILISHA SHAH - (www.linkedin.com/in/ilisha-shah)
+GARGI KAJAVE - (www.linkedin.com/in/gargikajave)
+ARYA DIXIT - (www.linkedin.com/in/arya-dixit-0485b2308)
+JANHAVI KHARE - (www.linkedin.com/in/janhavi-khare0911)
