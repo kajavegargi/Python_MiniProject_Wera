@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Database credentials — never upload these
+database/db.py
+
+# Uploaded images
+assets/uploads/
+
+# VS Code
+.vscode/
