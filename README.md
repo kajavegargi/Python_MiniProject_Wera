@@ -32,43 +32,9 @@ Built with Python, CustomTkinter, MySQL and SQLAlchemy.
 
 ---
 
-## How to run this locally
-
-### Prerequisites
-- Python 3.10+
-- MySQL installed and running
-
-### 1. Clone the repo
-git clone https://github.com/IlishaShah2413/Wera.git
-cd Wera
-
-### 2. Create and activate virtual environment
-python -m venv venv
-venv\Scripts\activate
-
-### 3. Install dependencies
-pip install customtkinter sqlalchemy pymysql bcrypt pillow
-
-### 4. Set up MySQL
-Open your MySQL command line and run:
-```sql
-CREATE DATABASE wera_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER 'wera_user'@'localhost' IDENTIFIED BY 'your_password';
-GRANT ALL PRIVILEGES ON wera_db.* TO 'wera_user'@'localhost';
-FLUSH PRIVILEGES;
-```
-
-### 5. Configure database connection
-copy database\db_example.py database\db.py
-Open `database/db.py` and fill in your MySQL username and password.
-
-### 6. Run
-python main.py
-Tables are created automatically on first run.
-
----
 
 ## Project Structure
+```text
 Wera/
 ├── main.py              — app entry point
 ├── database/
@@ -91,9 +57,9 @@ Wera/
 └── uploads/         — clothing photos 
 
 ---
-
+```
 ## Made by
-ILISHA SHAH - (www.linkedin.com/in/ilisha-shah)
-GARGI KAJAVE - (www.linkedin.com/in/gargikajave)
-ARYA DIXIT - (www.linkedin.com/in/arya-dixit-0485b2308)
-JANHAVI KHARE - (www.linkedin.com/in/janhavi-khare0911)
+- ILISHA SHAH - www.linkedin.com/in/ilisha-shah
+- GARGI KAJAVE - www.linkedin.com/in/gargikajave
+- ARYA DIXIT - www.linkedin.com/in/arya-dixit-0485b2308
+- JANHAVI KHARE - www.linkedin.com/in/janhavi-khare0911
